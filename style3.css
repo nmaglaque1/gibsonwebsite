@@ -1,0 +1,110 @@
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Oswald', sans-serif;
+	color: black;
+	padding: 0;
+	margin: 0;
+	background-color: white;
+	font-size: 16px;
+}
+h1 {
+	font-size: 3em;
+	text-align: left;
+	margin-bottom: .5em;
+	padding: 0;
+}
+p {
+	margin: 0;
+	text-align: justify;	
+}
+article {
+	display: flex;
+	flex-direction: reverse;
+}
+
+section {
+	width: 40%;
+	margin: 7em 5em;
+	padding: 1em;
+	font-size: 1em;
+}
+ img {
+ 	margin-left: 15em;
+ 	margin-top: 2em;
+ }
+
+ .container {
+ 	text-align: right;
+ 	margin-top: 1em;
+ 	margin-right: 4.5em;	 
+ }
+ .btn {
+ 	border: 1px solid black;
+ 	border-radius: 60px;
+ 	background: none;
+ 	padding: 7px 20px;
+ 	font-size: 20px;
+ 	cursor: pointer;
+ 	margin: 10px;
+ 	text-decoration: none;
+ 	color: black;
+ }
+ .btn:hover,.btn:active {
+ 	border: none;
+	background-color: #48AEFA;
+	color: white;
+	transition: background-color 0.3s ease-in, color 0.3s ease-in;
+	text-decoration: none;
+}
+
+/*nav*/
+ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+ul li {
+	float: left;
+	width: 200px;
+	height: 40px;
+	background-color: white;
+	opacity: .8;
+	line-height: 40px;
+	text-align: center;
+	font-size: 16px;
+	margin-right: 4px;
+}
+ul li a {
+	text-decoration: none;
+	color: black;
+	display: block;
+}
+ul li a:hover {
+	color: white;
+	background-color: #48AEFA;
+}
+ul li ul li {
+	display: none;
+}
+ul li:hover ul li {
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
